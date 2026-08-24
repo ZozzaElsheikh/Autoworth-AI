@@ -76,6 +76,7 @@ jupyter notebook notebooks/autoworth_ai.ipynb
 cd app
 streamlit run app.py
 ```
+for a brief workflow description visit `README (1).md`
 
 ## Dataset
 
