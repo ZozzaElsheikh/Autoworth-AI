@@ -2,7 +2,8 @@
 
 A machine learning system that predicts the fair market price of a used car and rates whether a seller's asking price is a good deal — trained on the 100,000 UK Used Car Dataset.
 
-**[Live demo screenshot / GIF here once you have one]**
+<img width="2498" height="1365" alt="image" src="https://github.com/user-attachments/assets/3f26d7cc-d4cb-4b15-af40-d86570cdb1d3" />
+
 
 ---
 
@@ -51,19 +52,20 @@ Python, pandas, scikit-learn, TensorFlow/Keras, Streamlit, matplotlib/seaborn
 ```
 autoworth-ai/
 ├── notebooks/
-│   └── autoworth_ai.ipynb      # full pipeline: cleaning → EDA → modeling → evaluation
+│   └── ML-Final-Project.ipynb      # full project pipeline: cleaning → EDA → modeling → evaluation
 ├── app/
 │   ├── app.py                  # Streamlit application
 │   ├── model.pkl / scaler.pkl / encoder.pkl
 │   └── app_metadata.json
 ├── requirements.txt
 └── README.md
+└── README (1).md
 ```
 
 ## Running Locally
 
 ```bash
-git clone https://github.com/<your-username>/autoworth-ai.git
+git clone https://github.com/ZozzaElsheikh/autoworth-ai.git
 cd autoworth-ai
 pip install -r requirements.txt
 
