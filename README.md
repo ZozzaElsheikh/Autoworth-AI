@@ -37,6 +37,8 @@ Given a car's make, model, year, mileage, transmission, fuel type, and engine si
 10. **Smart Deal Advisor** — turns the price prediction into an actionable buy/pass signal
 11. **Streamlit app** — a working demo UI for the whole pipeline
 
+<img width="5307" height="6029" alt="diagram" src="https://github.com/user-attachments/assets/96adef53-1701-4003-a549-4f8912ed5fa7" />
+
 ## Key Findings
 
 - Engine size was the strongest linear predictor of price, but transmission type (manual vs. automatic) turned out to be the single most important feature for the final model — capturing a non-linear price split that correlation analysis alone missed.
@@ -50,18 +52,15 @@ Python, pandas, scikit-learn, TensorFlow/Keras, Streamlit, matplotlib/seaborn
 ## Project Structure
 
 ```
-autoworth-ai/
-├── notebooks/
-│   └── ML-Final-Project.ipynb      # full project pipeline: cleaning → EDA → modeling → evaluation
-├── app/
-│   ├── app.py                  # Streamlit application
-│   ├── model.pkl / scaler.pkl / encoder.pkl
-│   └── app_metadata.json
-├── requirements.txt
-└── README.md
-└── README (1).md
+Directory structure:
+└── zozzaelsheikh-autoworth-ai/
+    ├── README.md
+    ├── README (1).md
+    └── App/
+        ├── app.py
+        ├── app_metadata.json
+        └── encoder.pkl
 ```
-
 ## Running Locally
 
 ```bash
